@@ -76,6 +76,7 @@ body{
     line-height: 16px;
     font-size: 15px;
     letter-spacing: 1px;
+    margin: 30%;
 }
 #menu-principal li a:hover{
     background-color: rgb(168, 168, 206);
