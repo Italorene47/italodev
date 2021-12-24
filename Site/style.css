@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+{
+
+font-family:arial, Helvetica, sans-serif;
+
+}
+
+body{            
+    background-color: #fff;
+}
+
+.login{
+    background-color: #003F63;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 40px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+input{
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+button{ 
+    background-color: white;
+    color: #003F63;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    font-family: sans-serif; 
+    font-weight: 550;
+
+}
+button:hover{
+    background-color: rgb(168, 168, 206);
+    cursor: pointer;
+}
+
+body{
+    background-color: white;
+    font-weight: 500;
+  }
+
+#menu-principal { 
+    background-color: rgb(255, 255, 255);  
+    font-weight: 500;  
+}
+
+#menu-principal ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;    
+    font-weight: 500;
+}
+
+#menu-principal li{
+    display: inline;
+    border-radius: 5px;   
+}
+
+#menu-principal li a {
+    color: #003F63;
+    padding: 22px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    font-family: sans-serif; 
+    font-weight: 550;
+    line-height: 16px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+#menu-principal li a:hover{
+    background-color: rgb(168, 168, 206);
+    font-family: sans-serif; 
+    font-weight: 550;
+    line-height: 16px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#menu-principal li:last-child a {
+    float:right;
+    background-color: #003F63;
+    color: white;
+    padding: 20px;
+    font-family: sans-serif; 
+    font-weight: 550;
+    line-height: 16px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#conteiner{
+    background-color: #003F63;
+    position: absolute;
+    top: 15%;
+    height: 400px;
+    width: 1350px;
+}
+
+.redes-sociais {
+    position: absolute;
+    top: 4%;
+    left: 83%;
+}
